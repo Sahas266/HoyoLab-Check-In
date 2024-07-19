@@ -102,8 +102,6 @@ def auto_sign_function(profile):
 
 async def main():
 
-    post_webhook("Test Message")
-
     for profile in profiles:
          post_webhook(auto_sign_function(profile))
 
