@@ -3,6 +3,7 @@ Python Script for Completing Daily HoyoLab Check-In
 
 This script is a refactor of the script created by [canaria3406](https://github.com/canaria3406) to facilitate the daily HoyoLab Check-In.
 This code is a python refactor of the [main Discord script](https://github.com/canaria3406/hoyolab-auto-sign/blob/main/src/main-discord.gs).
+Additional thanks to [this Reddit post](https://www.reddit.com/r/Genshin_Impact/comments/rohk7w/quick_tutorial_for_building_your_own_hoyolab/) for serving as a Python guide.
 
 A more detailed guide for use can be found [here](https://github.com/canaria3406/hoyolab-auto-sign/blob/main/README.md).
 
