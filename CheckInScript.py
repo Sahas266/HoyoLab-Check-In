@@ -41,7 +41,7 @@ urlDict = {
 def post_webhook(data):
     
     payload = {
-        "username": "auto-sign",
+        "username": "HoyoLab Check-In",
         "avatar_url": "https://1000logos.net/wp-content/uploads/2023/02/HoYoverse-Emblem.png",
         "content": (f"<@{myDiscordID}> " if myDiscordID else "") + "\n" + data
     }
@@ -104,5 +104,7 @@ async def main():
 
     for profile in profiles:
          post_webhook(auto_sign_function(profile))
+    post_webhook("~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~")
+
 
 asyncio.run(main())
